@@ -1,0 +1,23 @@
+.search{
+    height: 2em;
+    flex-grow: 1;
+    margin-left: 1em;
+}
+
+.container{
+    border-radius: 10px;
+    width: calc(100% - 1.2em);
+    margin-left: 0.7em;
+    padding: 0.15em 0;
+    padding-left: 0.8em;
+}
+
+.borderless{
+    border: none;
+    background-color: transparent;
+}
+
+.borderless:focus{
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,51 @@
+:root{
+    --nav-width: 3.75em;
+    --nav-width-expanded: 16em;
+    --nav-icons-font: 1.3rem;
+}
+
+.navigator{
+    width: var(--nav-width);
+    height: calc(100vh - 2em);
+    border-radius: 1em;
+    background-color: var(--bgc);
+}
+
+.system{
+    margin-top: auto;
+}
+
+.system p, .main p{
+    color: var(--text-low);
+    font-size: 0.8rem;
+}
+
+.back{
+    width: 25px;
+    background-color: rgba(120, 120, 120, 0.208);
+    top: 1em;
+    right: -1em;
+    color: #6a6a6a;
+}
+
+.navEl{
+    cursor: pointer;
+}
+
+.navEl:hover{
+    background-color: #7f7f7f14;
+}
+
+.navEl i{
+    font-size: 1.1rem;
+    color: var(--text);
+}
+
+.navEl p{
+
+}
+
+.iconHolder{
+    width: 10px;
+    margin: 0 calc((var(--nav-width) / 2) - 4px);
+}
