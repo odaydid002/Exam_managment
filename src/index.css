@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    text-rendering: optimizeLegibility !important;
+    font-smooth: always !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--text);
+}
+
+body{
+    background-color: var(--bg);
+}
